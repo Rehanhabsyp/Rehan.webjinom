@@ -2,11 +2,13 @@
 <html lang="id">
   <head>
     <meta charset="UTF-8" />
+
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Kontak Kami | Jinom Network</title>
+    <title>Jinom</title>
 
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+
     <link rel="stylesheet" href="bootstrap/css/style.css" />
 
     <script src="bootstrap/js/jQuery.js"></script>
@@ -29,164 +31,151 @@
             <span class="icon-bar"></span>
           </button>
 
-         <img src="image/jinom.png" alt="Logo Perusahaan"width="170" height="50"> 
+          <img src="image/jinom.png" alt="Logo Perusahaan"width="170" height="50">
         </div>
 
         <div class="collapse navbar-collapse" id="menu">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="index.html">Beranda</a></li>
+            <li class="active"><a href="index.html">Beranda</a></li>
+
             <li><a href="paket.html">Paket</a></li>
+
             <li><a href="layanan.html">Layanan</a></li>
+
             <li><a href="tentang.html">Tentang</a></li>
-            <li class="active"><a href="kontak.html">Kontak</a></li>
+
+            <li><a href="kontak.html">Kontak</a></li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <!-- HEADER -->
-    <div class="container">
-      <div class="page-header text-center">
-        <h1>Kontak Kami</h1>
-        <p>Silakan hubungi kami untuk pemasangan atau konsultasi bisnis internet.</p>
-      </div>
-    </div>
+    <!-- CAROUSEL -->
 
-    <!-- KONTAK SECTION -->
-    <div class="container">
-      <div class="row">
-        <!-- FORM -->
-        <div class="col-md-6">
-          <h3>Kirim Pesan</h3>
+    <div id="slider" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#slider" data-slide-to="0" class="active"></li>
+        <li data-target="#slider" data-slide-to="1"></li>
+        <li data-target="#slider" data-slide-to="2"></li>
+      </ol>
 
-          <form>
-            <div class="form-group">
-              <label>Nama</label>
-              <input
-                type="text"
-                class="form-control"
-                placeholder="Masukkan nama"
-              />
-            </div>
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="" width="100%" />
 
-            <div class="form-group">
-              <label>Email</label>
-              <input
-                type="email"
-                class="form-control"
-                placeholder="Masukkan email"
-              />
-            </div>
+          <div class="carousel-caption">
+            <h2>Internet Cepat Tanpa Batas</h2>
 
-            <div class="form-group">
-              <label>No HP</label>
-              <input
-                type="text"
-                class="form-control"
-                placeholder="Nomor WhatsApp"
-              />
-            </div>
-
-            <div class="form-group">
-              <label>Pesan</label>
-              <textarea
-                class="form-control"
-                rows="5"
-                placeholder="Tulis pesan..."
-              ></textarea>
-            </div>
-
-            <button type="submit" class="btn btn-primary btn-block">
-              Kirim Pesan
-            </button>
-          </form>
+            <p>Solusi internet rumah dan bisnis.</p>
+          </div>
         </div>
 
-        <!-- INFO -->
-        <div class="col-md-6">
-          <h3>Informasi Kontak</h3>
+        <div class="item">
+          <img src="" width="100%" />
 
-          <div class="panel panel-primary">
-            <div class="panel-body">
-              <p>📍Jl. WR Supratman No.311, Kesiman Kertalangu, Kec. Denpasar Timur, Kota Denpasar</p>
-              <hr />
+          <div class="carousel-caption">
+            <h2>Jaringan Stabil</h2>
 
-              <p>☎ Nomor Telepon : +62 858 1145 7384</p>
-              <hr />
-
-              <p>✉ supportjinom@gmail.com</p>
-              <hr />
-
-              <p>⏰ Jam Operasional: 08.00 - 23.00</p>
-            </div>
+            <p>Koneksi cepat setiap saat.</p>
           </div>
+        </div>
 
-          <!-- MAP -->
-          <h3>Lokasi Kami</h3>
+        <div class="item">
+          <img src="images/slider3.jpg" width="100%" />
 
-          <div class="embed-responsive embed-responsive-16by9">
-            <iframe
-              class="embed-responsive-item"
-              src="https://www.google.com/maps?q=Jinom&output=embed"
-            ></iframe>
+          <div class="carousel-caption">
+            <h2>Support 24 Jam</h2>
+
+            <p>Teknisi siap membantu kapan saja.</p>
           </div>
         </div>
       </div>
     </div>
 
-    <br />
+    <!-- HERO -->
 
-    <!-- FAQ -->
+    <div class="jumbotron text-center hero">
+      <div class="container">
+        <h1>Jinom Network</h1>
+
+        <p>Internet Cepat • Stabil • Resmi</p>
+
+        <p>Layanan internet rumah, kantor, sekolah, dan perusahaan.</p>
+
+        <a href="paket.html" class="btn btn-primary btn-lg"> Lihat Paket </a>
+
+        <a href="kontak.html" class="btn btn-success btn-lg"> Hubungi Kami </a>
+      </div>
+    </div>
+
+    <!-- KEUNGGULAN -->
+
     <div class="container">
-      <h3 class="text-center">FAQ (Pertanyaan Umum)</h3>
+      <div class="text-center">
+        <h2>Mengapa Memilih Kami?</h2>
+
+        <p>Kami bersedia memberikan layanan internet terbaik.</p>
+      </div>
 
       <br />
 
-      <div class="panel-group" id="faq">
-        <div class="panel panel-default">
-          <div class="panel-heading">
-            <h4 class="panel-title">
-              <a data-toggle="collapse" href="#q1">
-                Berapa lama pemasangan perangkat wifi?
-              </a>
-            </h4>
-          </div>
+      <div class="row">
+        <div class="col-md-3">
+          <div class="panel panel-primary">
+            <div class="panel-body text-center">
+              <span
+                class="glyphicon glyphicon-signal"
+                style="font-size: 45px"
+              ></span>
 
-          <div id="q1" class="panel-collapse collapse">
-            <div class="panel-body">
-              Pemasangan biasanya akan dilakukan 1-3 hari setelah pendaftaran.
+              <h4>Internet Cepat</h4>
+
+              <p>Kecepatan hingga 1 Gbps.</p>
             </div>
           </div>
         </div>
 
-        <div class="panel panel-default">
-          <div class="panel-heading">
-            <h4 class="panel-title">
-              <a data-toggle="collapse" href="#q2">
-                Apakah bisa pasang di desa?
-              </a>
-            </h4>
-          </div>
+        <div class="col-md-3">
+          <div class="panel panel-success">
+            <div class="panel-body text-center">
+              <span
+                class="glyphicon glyphicon-lock"
+                style="font-size: 45px"
+              ></span>
 
-          <div id="q2" class="panel-collapse collapse">
-            <div class="panel-body">
-              Bisa, selama area sudah terjangkau jaringan kami.
+              <h4>Jaringan Aman</h4>
+
+              <p>Keamanan data lebih terjamin.</p>
             </div>
           </div>
         </div>
 
-        <div class="panel panel-default">
-          <div class="panel-heading">
-            <h4 class="panel-title">
-              <a data-toggle="collapse" href="#q3">
-                Apakah ada biaya instalasi?
-              </a>
-            </h4>
-          </div>
+        <div class="col-md-3">
+          <div class="panel panel-info">
+            <div class="panel-body text-center">
+              <span
+                class="glyphicon glyphicon-time"
+                style="font-size: 45px"
+              ></span>
 
-          <div id="q3" class="panel-collapse collapse">
-            <div class="panel-body">
-              Gratis di promo tertentu atau sesuai paket yang dipilih.
+              <h4>Support 24 Jam</h4>
+
+              <p>Tim teknisi siap membantu.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="panel panel-warning">
+            <div class="panel-body text-center">
+              <span
+                class="glyphicon glyphicon-cloud"
+                style="font-size: 45px"
+              ></span>
+
+              <h4>Uptime 99%</h4>
+
+              <p>Koneksi stabil setiap hari.</p>
             </div>
           </div>
         </div>
@@ -195,12 +184,113 @@
 
     <br />
 
-    <!-- FOOTER -->
+    <!-- PAKET -->
+
+    <div class="container">
+      <div class="text-center">
+        <h2>Paket Internet Populer</h2>
+      </div>
+
+      <br />
+
+      <div class="row">
+        <div class="col-md-4">
+          <div class="thumbnail">
+            <img src="image/Cara-Mudah-Membuat-Jaringan-Wifi-Sendiri-di-Rumah.jpg" />
+
+            <div class="caption text-center">
+              <h3>Standard</h3>
+
+              <h4>10 Mbps</h4>
+
+              <h3 style="color: #2196f3">Rp165.000/Bulan</h3>
+
+              <a href="paket.html" class="btn btn-primary"> Lihat Detail </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="thumbnail">
+            <img src="image/images (home bisnis).jpg" />
+
+            <div class="caption text-center">
+              <h3>Home Family</h3>
+
+              <h4>50 Mbps</h4>
+
+              <h3 style="color: #2196f3">Rp270.000/Bulan</h3>
+
+              <a href="paket.html" class="btn btn-success"> Lihat Detail </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="thumbnail">
+            <img src="image/images dedicated.jpg" />
+
+            <div class="caption text-center">
+              <h3>Premium</h3>
+
+              <h4>100 Mbps</h4>
+
+              <h3 style="color: #2196f3">Rp525.000/Bulan</h3>
+
+              <a href="paket.html" class="btn btn-warning"> Lihat Detail </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br />
+
+    <!-- PROGRESS -->
+
+    <div class="container">
+      <h2 class="text-center">Kualitas Layanan</h2>
+
+      <br />
+
+      <p>Kecepatan Jaringan</p>
+
+      <div class="progress">
+        <div class="progress-bar progress-bar-success" style="width: 95%">
+          95%
+        </div>
+      </div>
+
+      <p>Kepuasan Pelanggan</p>
+
+      <div class="progress">
+        <div class="progress-bar progress-bar-info" style="width: 98%">98%</div>
+      </div>
+
+      <p>Respon Teknisi</p>
+
+      <div class="progress">
+        <div class="progress-bar progress-bar-warning" style="width: 90%">
+          90%
+        </div>
+      </div>
+    </div>
+
+    <br />
+
+    <div class="container">
+      <div class="alert alert-info text-center">
+        <strong>Promo Bulan Ini!</strong>
+
+        Pasang internet sekarang GRATIS biaya instalasi untuk pelanggan baru.
+      </div>
+    </div>
+
     <footer class="footer">
       <div class="container text-center">
-         <h3>Jinom Network</h3>
+        <h3>Jinom Network</h3>
 
-        <p>Internet Cepat • Stabil • Resmi</p>
+        <p>I  nternet Cepat • Stabil • Resmi</p>
 
         <hr />
 
